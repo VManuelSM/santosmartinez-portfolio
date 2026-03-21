@@ -7,12 +7,16 @@ import NavArticle from "../components/layout/NavArticle.astro";
 import ListPosts from "../components/blog/ListPosts.astro";
 import NavigationArticles from "../components/layout/NavigationArticles.astro";
 import Share from "../components/ui/Share.astro";
+import { getCollection } from "astro:content";
 const { frontmatter } = Astro.props;
 const currentUrl = `${Astro.site}${Astro.url.pathname}`;
 const tweetText = encodeURIComponent(
-  `"${frontmatter.title}" - by ${frontmatter.author} | EFEELE`
+  `"${frontmatter.title}" - por ${frontmatter.author}`
 );
 import Heading from "../components/ui/Heading.astro";
+
+const [staticData] = await getCollection("staticData");
+const { profileImage, profileAlt } = staticData.data;
 ---
 
 <script>
@@ -53,7 +57,7 @@ import Heading from "../components/ui/Heading.astro";
     await navigator.clipboard.writeText(text);
 
     // visual feedback that task is completed
-    button.innerHTML = `<svg width="15" height="15" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M11.4669 3.72684C11.7558 3.91574 11.8369 4.30308 11.648 4.59198L7.39799 11.092C7.29783 11.2452 7.13556 11.3467 6.95402 11.3699C6.77247 11.3931 6.58989 11.3355 6.45446 11.2124L3.70446 8.71241C3.44905 8.48022 3.43023 8.08494 3.66242 7.82953C3.89461 7.57412 4.28989 7.55529 4.5453 7.78749L6.75292 9.79441L10.6018 3.90792C10.7907 3.61902 11.178 3.53795 11.4669 3.72684Z" fill="currentColor" fill-rule="evenodd" clip-rule="evenodd"></path></svg>&nbsp;Copied`;
+    button.innerHTML = `<svg width="15" height="15" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M11.4669 3.72684C11.7558 3.91574 11.8369 4.30308 11.648 4.59198L7.39799 11.092C7.29783 11.2452 7.13556 11.3467 6.95402 11.3699C6.77247 11.3931 6.58989 11.3355 6.45446 11.2124L3.70446 8.71241C3.44905 8.48022 3.43023 8.08494 3.66242 7.82953C3.89461 7.57412 4.28989 7.55529 4.5453 7.78749L6.75292 9.79441L10.6018 3.90792C10.7907 3.61902 11.178 3.53795 11.4669 3.72684Z" fill="currentColor" fill-rule="evenodd" clip-rule="evenodd"></path></svg>&nbsp;Copiado`;
 
     setTimeout(() => {
       button.innerHTML = copyButtonLabel;
@@ -93,9 +97,9 @@ import Heading from "../components/ui/Heading.astro";
         >
           <div class="white flex items-center gap-4">
             <div
-              aria-label="Photo of Fernando Aldair López Ponce (EFEELE) for the blog"
+              aria-label={profileAlt}
               class="size-10 bg-cover bg-center rounded-full drop-shadow-lg"
-              style="background-image: url(/images/efeeleprofile.webp);"
+              style={`background-image: url(${profileImage});`}
             >
             </div>
             <a
@@ -115,7 +119,7 @@ import Heading from "../components/ui/Heading.astro";
             <img
               class="w-full rounded-xl"
               src={frontmatter.image.url}
-              alt={frontmatter.image.alt || "Article image"}
+              alt={frontmatter.image.alt || "Imagen del artículo"}
             />
           )
         }

@@ -1,8 +1,8 @@
 ---
 layout: /src/layouts/MarkdownPostLayout.astro
-title: Create an Animated Border with Tailwind CSS
-author: Fernando López
-description: "Add a dynamic touch to your designs with an animated border in Tailwind CSS. Learn how to use conic-gradient and animations to achieve an impressive visual effect. 🚀✨"
+title: Crea un borde animado con Tailwind CSS
+author: Víctor Santos
+description: "Aprende a crear un borde animado en Tailwind CSS usando conic-gradient y animaciones para sumar un recurso visual llamativo a tus interfaces. 🚀✨"
 image:
   url: "/images/posts/animated-borders-tailwind.webp"
   alt: "Example of animated borders with Tailwind CSS in a dark design, featuring a vibrant color gradient background."

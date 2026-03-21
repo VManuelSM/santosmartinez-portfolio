@@ -1,8 +1,8 @@
 ---
 layout: /src/layouts/MarkdownPostLayout.astro
-title: The Complete Markdown Guide
-author: Fernando López
-description: "A comprehensive guide to Markdown syntax, covering everything from basic formatting to advanced features. Learn how to create headers, lists, emphasis, and more with this essential markup language for content creation."
+title: Guía completa de Markdown
+author: Víctor Santos
+description: "Una guía amplia sobre la sintaxis de Markdown, desde el formato básico hasta funciones más avanzadas para estructurar contenido con claridad."
 image:
   url: "/images/posts/markdown.webp"
   alt: "Example of animated borders with Tailwind CSS in a dark design, featuring a vibrant color gradient background."

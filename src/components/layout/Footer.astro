@@ -22,16 +22,16 @@ const {
 <footer
   class="relative bottom-0 w-full px-4 py-8 font-medium text-blacktext dark:bg-transparent dark:border-b-2 dark:border-zinc-800 dark:text-zinc-300 max-lg:mt-3"
   role="contentinfo"
-  aria-label="Site footer"
+  aria-label="Pie del sitio"
 >
   <nav
     class="mx-auto flex max-w-7xl flex-row items-center justify-between gap-4 text-xl max-xl:px-6 max-sm:flex-col"
-    aria-label="Footer navigation"
+    aria-label="Navegación del pie"
   >
     <div
-      class="relative h-6 cursor-pointer before:absolute before:left-1/2 before:top-1/2 before:h-full before:w-[40%] before:-translate-x-1/2 before:-translate-y-1/2 before:rounded-full before:bg-[#50fd8f25] before:blur-3xl before:opacity-80 before:-z-1 hover:text-mint-500 transition-all [text-shadow:0_1px_2px_#000]"
+      class="relative h-6 cursor-pointer before:absolute before:left-1/2 before:top-1/2 before:h-full before:w-[40%] before:-translate-x-1/2 before:-translate-y-1/2 before:rounded-full before:bg-[#97b2de30] before:blur-3xl before:opacity-80 before:-z-1 hover:text-mint-500 transition-all [text-shadow:0_1px_2px_#000]"
     >
-      <a href="/" aria-label="Return to homepage">
+      <a href="/" aria-label="Volver al inicio">
         <!-- This icon represents the logo -->
         <Icon name="logo" aria-hidden="true" />
       </a>
@@ -40,41 +40,41 @@ const {
       <a
         href={github}
         class="flex items-center justify-center gap-3 text-base font-normal italic max-sm:text-sm"
-        aria-label="About the website development"
-        ><Icon name="code" aria-hidden="true" /> Developed by <strong
+        aria-label="Información sobre el desarrollo del sitio"
+        ><Icon name="code" aria-hidden="true" /> Desarrollado por <strong
           >{alias}</strong
-        >, with Astro</a
+        >, con Astro</a
       >
     </div>
     <div
       class="flex items-center justify-center gap-5"
       role="group"
-      aria-label="Social media links"
+      aria-label="Enlaces a redes sociales"
     >
       <Social
         link={`mailto:${email}`}
         iconName={emailIconName}
-        label={`Send email to ${email}`}
+        label={`Enviar correo a ${email}`}
       />
       <Social
         link={instagram}
         iconName={instagramIconName}
-        label={`Visit ${alias} on Instagram`}
+        label={`Visitar el Instagram de ${alias}`}
       />
       <Social
         link={youtube}
         iconName={youtubeIconName}
-        label={`Visit ${alias} on YouTube`}
+        label={`Visitar el canal de YouTube de ${alias}`}
       />
       <Social
         link={github}
         iconName={githubIconName}
-        label={`Visit ${alias} on GitHub`}
+        label={`Visitar el GitHub de ${alias}`}
       />
       <Social
         link={linkedin}
         iconName={linkedinIconName}
-        label={`Visit ${alias} on LinkedIn`}
+        label={`Visitar el LinkedIn de ${alias}`}
       />
     </div>
   </nav>

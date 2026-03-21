@@ -4,21 +4,21 @@ import Header from "../components/layout/Header.astro";
 import Footer from "../components/layout/Footer.astro";
 import  SpeedInsights  from "@vercel/speed-insights/astro"
 const {
-  pageTitle = "NeonMint by EFEELE 🚀",
-  description = "Welcome to NeonMint by EFEELE, where I develop software and share knowledge.",
+  pageTitle = "Portafolio de Víctor Santos",
+  description = "Portafolio personal de Víctor Santos con experiencia, proyectos y enfoque en desarrollo de software.",
   ogimage = {
     url: "/images/imagedefault.webp",
-    alt: "Default image of EFEELE",
+    alt: "Vista previa del portafolio personal de Víctor Santos",
   },
 } = Astro.props;
 
 const siteUrl = new URL(Astro.url).origin;
 const SEO = {
-  sitename: "NeonMint by EFEELE🚀",
+  sitename: "Portafolio de Víctor Santos",
   url: siteUrl,
-  locale: "en_US",
-  author: "Fernando Lopez | EFEELE",
-  twitter: "@efeeledev",
+  locale: "es_MX",
+  author: "Víctor Manuel Santos Martínez",
+  twitter: "",
 };
 
 
@@ -26,7 +26,7 @@ const twitterimage = `${siteUrl}${ogimage.url}`;
 ---
 
 <html
-  lang="en"
+  lang="es"
   class="dark:bg-[#0E0E11] bg-mint-50/5 font-montserrat scroll-smooth"
 >
   <head>
@@ -64,9 +64,9 @@ const twitterimage = `${siteUrl}${ogimage.url}`;
     <meta name="twitter:description" content={description} />
     <meta name="twitter:image" content={twitterimage} />
     <meta name="twitter:image:alt" content={ogimage.alt} />
-    <meta name="twitter:site" content={SEO.twitter} />
+    {SEO.twitter && <meta name="twitter:site" content={SEO.twitter} />}
   
-    <meta name="theme-color" content="#0E0E11"/>
+    <meta name="theme-color" content="#092147"/>
 
     <!-- Sitemap -->
     <link rel="sitemap" href="/sitemap-index.xml" />
@@ -76,7 +76,7 @@ const twitterimage = `${siteUrl}${ogimage.url}`;
     <SpeedInsights/>
     <div class="blur-circle"></div>
     <div
-      style="  background:linear-gradient(45deg, rgba(96, 250, 155, 0) 10.79%, rgba(96, 250, 170, 0.03) 40.92%, rgba(96, 250, 155, 0) 90.35%)"
+      style="background: linear-gradient(45deg, rgba(9, 33, 71, 0) 10.79%, rgba(26, 72, 142, 0.08) 40.92%, rgba(151, 178, 222, 0) 90.35%)"
       class="fixed top-0 left-0 w-full h-full pointer-events-none -z-1"
     >
     </div>

@@ -4,8 +4,8 @@ import { Icon } from "astro-icon/components";
 ---
 
 <Layout
-    pageTitle="Page Not Found - 404"
-    description="The page you requested could not be found."
+    pageTitle="Página no encontrada - 404"
+    description="La página solicitada no pudo ser encontrada."
 >
     <main
         class="flex flex-col items-center justify-center min-h-[calc(100vh-200px)] text-blacktext dark:text-gray-200 py-8 md:py-16 px-4 text-center font-montserrat"
@@ -17,16 +17,15 @@ import { Icon } from "astro-icon/components";
         </h1>
 
         <h2
-            class="text-4xl max-md:text-3xl font-roboto font-bold mb-6 text-blacktext dark:text-white"
+            class="text-4xl max-md:text-3xl font-chakra-petch font-bold mb-6 text-blacktext dark:text-white"
         >
-            Page Not Found
+            Página no encontrada
         </h2>
 
         <p
             class="max-w-xl text-xl leading-relaxed mb-10 text-pretty text-blacktext dark:text-gray-200"
         >
-            Oops! It seems the page you are looking for has taken a detour or
-            doesn't exist.
+            La ruta que intentaste abrir no existe o fue movida.
         </p>
 
         <a
@@ -35,7 +34,7 @@ import { Icon } from "astro-icon/components";
              bg-mint-500 hover:bg-mint-600 focus:outline-none focus:ring-4 focus:ring-mint-500/50 dark:bg-riptide-500 dark:hover:bg-riptide-600 dark:focus:ring-riptide-500/50"
         >
             <Icon name="arrow-left" class="size-6" aria-hidden="true" />
-            Go Back Home
+            Volver al inicio
         </a>
     </main>
 </Layout>

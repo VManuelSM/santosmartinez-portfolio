@@ -22,8 +22,8 @@ const shareLinks = [
 ];
 ---
 
-<div class="flex items-center gap-5 text-lg" role="group" aria-label="Share on social media">
-  <span class="text-base font-bold text-blacktext dark:text-white">Share </span>
+<div class="flex items-center gap-5 text-lg" role="group" aria-label="Compartir en redes sociales">
+  <span class="text-base font-bold text-blacktext dark:text-white">Compartir</span>
   {
     shareLinks.map((link) => (
       <a
@@ -31,8 +31,8 @@ const shareLinks = [
         class="bg-blacktext rounded-full p-2"
         target="_blank"
         rel="noopener noreferrer"
-        aria-label={`Share on ${link.name}`}
-        title={`Share on ${link.name}`}
+        aria-label={`Compartir en ${link.name}`}
+        title={`Compartir en ${link.name}`}
       >
         <Icon name={link.icon} />
       </a>

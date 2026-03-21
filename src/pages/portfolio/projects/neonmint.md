@@ -2,42 +2,37 @@
 layout:  /src/layouts/ProjectLayout.astro
 title: 'NeonMint'
 pubDate: 2025-04-05
-description: 'NeonMint is a modern, minimalist template crafted for developers and digital creatives.'
+description: 'NeonMint es una plantilla moderna y minimalista pensada para desarrolladores y creativos digitales.'
 languages: ["astro", "tailwind", "cloudflare", "javascript","vercel"]
 image:
   url: "/images/projects/neonmint.webp"
-  alt: "Thumbnail of Astro arches."
+  alt: "Miniatura de la interfaz del proyecto NeonMint."
 --- 
 
-**NeonMint** is a modern, minimalist web template created for developers, designers, and digital creatives. This project aims to offer an elegant and functional visual experience, combining a dark-toned aesthetic with mint green accents to highlight content without distractions.
+**NeonMint** es una plantilla web moderna y minimalista creada para desarrolladores, diseñadores y creativos digitales. El proyecto busca ofrecer una experiencia visual elegante y funcional, con una estética sobria y una jerarquía clara que permita destacar el contenido sin distracciones.
 
-Developed with **Astro** and styled with **TailwindCSS**, NeonMint focuses on speed, modularity, and a component-centered architecture.
+Desarrollada con **Astro** y estilizada con **TailwindCSS**, NeonMint está pensada para priorizar velocidad, modularidad y una arquitectura basada en componentes.
 
-## 🧩 Features
+## 🧩 Características
 
-- Responsive and minimalist design
-- Dark mode aesthetic with mint green accents
-- Clean and reusable UI components
-- Ideal for portfolios, dashboards or tech landing pages
-- Modern typography and clear visual hierarchy
-- Developed with **Astro**
-- Styled with **TailwindCSS**
+- Diseño responsive y minimalista
+- Interfaz limpia y reutilizable
+- Ideal para portafolios, dashboards o landing pages tecnológicas
+- Tipografía moderna y jerarquía visual clara
+- Desarrollado con **Astro**
+- Estilizado con **TailwindCSS**
 
-## 💡 Technologies used
+## 💡 Tecnologías utilizadas
 
 - Astro
 - TailwindCSS
 - HTML5
 - JavaScript
 
-
 ## 🌐 Demo
 
-👉 [View live demo](https://github.com/EFEELE/NeonMint) 
+👉 [Ver demo](https://github.com/EFEELE/NeonMint)
 
-## 🎯 Objective
+## 🎯 Objetivo
 
-The purpose of NeonMint is to combine style and functionality in a clean interface that enhances content without overwhelming the user. It's an exercise in design and development focused on visual detail and user experience.
-
-
-🚀 *Developed by EFEELE.*
+El propósito de NeonMint es combinar estilo y funcionalidad en una interfaz limpia que permita resaltar el contenido sin saturar la experiencia. Es un ejercicio de diseño y desarrollo orientado al detalle visual y a una navegación clara.

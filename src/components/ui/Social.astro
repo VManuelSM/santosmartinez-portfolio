@@ -7,7 +7,7 @@ interface Props {
     label?: string;
 }
 
-const { iconName, link, label = `Link to ${iconName}` } = Astro.props;
+const { iconName, link, label = `Enlace a ${iconName}` } = Astro.props;
 
 // Validate required props
 if (!iconName || !link) {

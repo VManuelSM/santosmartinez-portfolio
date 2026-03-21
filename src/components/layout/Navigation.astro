@@ -10,15 +10,15 @@ const { items = [] }: { items: (keyof typeof menu)[] } = Astro.props as {
 };
 
 const menu = {
-  about: { name: "About Me", path: "/about-me" },
+  about: { name: "Sobre mí", path: "/about-me" },
   blog: {
     name: "Blog",
     path: "/blog/",
-    dropdown: [{ name: "All Posts", path: "/blog/posts/" }],
+    dropdown: [{ name: "Todas las entradas", path: "/blog/posts/" }],
   },
-  home: { name: "Home", path: "/#home" },
-  experience: { name: "Experience", path: "/#experience" },
-  projects: { name: "Projects", path: "/#projects" },
+  home: { name: "Inicio", path: "/#home" },
+  experience: { name: "Experiencia", path: "/#experience" },
+  projects: { name: "Proyectos", path: "/#projects" },
 };
 
 // Common base classes
@@ -44,7 +44,7 @@ const baseClasses = {
         "text-mint-500",
         "dark:text-mint-400",
         "font-bold",
-        "[text-shadow:1px_1px_11px_rgba(208,251,229,0.7)]",
+        "[text-shadow:1px_1px_11px_rgba(151,178,222,0.55)]",
       ],
       inactive: ["dark:text-zinc-300", "text-blacktext"],
     };
@@ -108,7 +108,7 @@ const baseClasses = {
   });
 </script>
 
-<nav class={baseClasses.nav} role="navigation" aria-label="Main Navigation">
+<nav class={baseClasses.nav} role="navigation" aria-label="Navegación principal">
   {
     items.map((key: string) => {
       const item = menu[key as keyof typeof menu];
@@ -161,7 +161,7 @@ const baseClasses = {
   <div
     class={baseClasses.socialContainer}
     role="group"
-    aria-label="Social Media Links"
+    aria-label="Enlaces a redes sociales"
   >
     <Social link={github} iconName={githubIconName} />
     <Social link={linkedin} iconName={linkedinIconName} />

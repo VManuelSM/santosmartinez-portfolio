@@ -2,8 +2,8 @@ import rss, { pagesGlobToRssItems } from '@astrojs/rss';
 
 export async function GET(context) {
   return rss({
-    title: 'Web Development and Technology Blog | Fernando López | EFEELE',
-    description: 'Welcome to my blog, where I share my passion for frontend development, web design, and the latest technology trends.',
+    title: 'Blog de desarrollo y tecnología | Víctor Santos',
+    description: 'Artículos y notas sobre desarrollo web, diseño, herramientas y tecnología.',
     site: context.site,
     items: await pagesGlobToRssItems(import.meta.glob('./**/*.md')),
     customData: `<language>es</language>`,

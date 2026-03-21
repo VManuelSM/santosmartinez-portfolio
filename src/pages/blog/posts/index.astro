@@ -3,11 +3,11 @@ import Layout from "../../../layouts/Layout.astro";
 import Hero from "../../../components/blog/Hero.astro";
 import Tags from "../../../components/blog/Tags.astro";
 import ListPosts from "../../../components/blog/ListPosts.astro";
-const pageTitle = "Web Development and Technology Blog | Fernando López | EFEELE";
-const description = "Welcome to my blog, where I share my passion for frontend development, web design, and the latest technology trends.";
+const pageTitle = "Entradas del blog | Víctor Santos";
+const description = "Colección de entradas sobre desarrollo web, tecnología y herramientas digitales.";
 const ogimage = {
   url: "/images/blogimage.webp",
-  alt: "EFEELE.dev logo with green background and light effect. Text: 'Web Development and Technology Blog' and URL 'www.efeele.dev'.",
+  alt: "Vista previa de las entradas del blog de Víctor Santos.",
 };
 const currentUrl = `${Astro.site}${Astro.url.pathname}`;
 const tweetText = encodeURIComponent(`"${pageTitle}"`);
@@ -31,7 +31,7 @@ import Languages from "../../../components/blog/Languages.astro";
           class="bg-white dark:bg-transparent w-full mt-0 rounded-2xl dark:border-0 border border-neutral-100 top-14 px-6 pt-8 pb-12"
         >
           <div class="flex flex-col gap-4 pl-0">
-            <Heading textGradient="Categories" />
+            <Heading text="Categorías" />
             <Tags variant="compact" />
           </div>
         </div>
@@ -40,7 +40,7 @@ import Languages from "../../../components/blog/Languages.astro";
           class="bg-white dark:bg-transparent w-full mt-8 rounded-2xl dark:border-0 border border-neutral-100 top-14 px-6 pt-8 pb-12"
         >
           <div class="flex flex-col gap-4 pl-0">
-            <Heading textGradient="Technologies" level={2} />
+            <Heading text="Tecnologías" level={2} />
             <Languages level={2} />
           </div>
         </div>

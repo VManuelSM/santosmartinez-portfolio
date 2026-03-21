@@ -6,7 +6,11 @@ import Experience from "../components/portfolio/Experience.astro";
 import NavArticle from "../components/layout/NavArticle.astro";
 import Contact from "../components/portfolio/Contact.astro";
 import Tools from "../components/portfolio/Tools.astro";
+import { getCollection } from "astro:content";
+
 const { frontmatter } = Astro.props;
+const [staticData] = await getCollection("staticData");
+const { profileImage, profileAlt, profileName } = staticData.data;
 ---
 
 <script>
@@ -44,13 +48,14 @@ const { frontmatter } = Astro.props;
               </div>
               <div class="relative z-20 flex w-full rounded-full bg-mint-900">
                 <div
-                  class="w-full aspect-square rounded-full bg-[url(/images/efeeleprofile.webp)] bg-center bg-cover"
-                  aria-label="Photo of Fernando Aldair López Ponce (EFEELE) for the blog"
+                  class="w-full aspect-square rounded-full bg-center bg-cover"
+                  style={`background-image: url(${profileImage})`}
+                  aria-label={profileAlt}
                 >
                   <a
                     href="/about-me"
                     class="flex h-full w-full"
-                    aria-label="View about me page"></a>
+                    aria-label="Ver página sobre mí"></a>
                 </div>
               </div>
             </div>
@@ -58,7 +63,7 @@ const { frontmatter } = Astro.props;
 
           <div class="w-full flex flex-col justify-center gap-4 max-md:gap-2">
             <div class="text-center">
-              <Heading textGradient="Fernando López | EFEELE" />
+              <Heading textGradient={profileName} />
             </div>
 
             <p
@@ -66,18 +71,17 @@ const { frontmatter } = Astro.props;
             >
               <b
                 class="bg-linear-to-r from-riptide-400 to-mint-500 dark:to-mint-200 dark:from-riptide-300 text-transparent bg-clip-text"
-                >Frontend Developer</b
-              > with <b
+                >Desarrollador de software</b
+              > con <b
                 class="bg-linear-to-r from-riptide-400 to-mint-500 dark:to-mint-200 dark:from-riptide-300 text-transparent bg-clip-text"
-                >8 years of experience</b
-              >, passionate about development, technology, and coffee that
-              sparks ideas. I love bringing digital projects to life. 🚀☕
+                >6 años de experiencia</b
+              >, enfocado en crear soluciones digitales útiles, bien pensadas y con atención al detalle. 🚀☕
             </p>
           </div>
         </div>
       </div>
       <div class="flex gap-4 items-center">
-        <Heading text="About" textGradient="me" />
+        <Heading text="Sobre" textGradient="mí" />
       </div>
 
       <div class="markdown text-white" id="content">
@@ -90,7 +94,7 @@ const { frontmatter } = Astro.props;
     <div class="flex flex-col gap-8 pt-8 max-w-4xl mx-auto">
       <div class="flex gap-4 items-center justify-center">
         <Icon class="text-3xl text-white" name="briefcase" />
-        <Heading text="Experience" textGradient="Work" level={2} />
+        <Heading text="Experiencia" textGradient="profesional" level={2} />
       </div>
 
       <Experience />
@@ -100,7 +104,7 @@ const { frontmatter } = Astro.props;
     <div class="flex flex-col gap-8 max-w-3xl justify-center mx-auto">
       <div class="flex gap-4 items-center justify-center">
         <Icon class="text-3xl text-white" name="dashboard" />
-        <Heading text="Stack" textGradient="Technological" level={2} />
+        <Heading text="Stack" textGradient="tecnológico" level={2} />
       </div>
       <Tools variant="center" />
     </div>

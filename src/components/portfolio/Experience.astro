@@ -5,18 +5,18 @@ import { Icon } from "astro-icon/components";
 
 const EXPERIENCE = [
   {
-    date: "2021 - Present",
-    title: "Software Development Coordinator",
-    company: "EFEELE.DEV",
+    date: "2021 - Actualidad",
+    title: "Coordinador de desarrollo de software",
+    company: "Proyectos digitales",
     description:
-      "I lead the planning, development, and implementation of software projects to optimize administrative processes and improve digital services. I manage and provide support for technology platforms, coordinating development teams to deliver efficient solutions.",
+      "Lidero la planeación, el desarrollo y la implementación de proyectos de software para optimizar procesos y mejorar servicios digitales. Coordino equipos y acompaño plataformas tecnológicas con foco en soluciones eficientes y funcionales.",
   },
   {
     date: "2019 - 2020",
-    title: "Software Development Coordinator",
-    company: "EFEELE.DEV",
+    title: "Coordinador de desarrollo de software",
+    company: "Colaboraciones y soluciones web",
     description:
-      "I lead the planning, development, and implementation of software projects to optimize administrative processes and improve digital services. I manage and provide support for technology platforms, coordinating development teams to deliver efficient solutions.",
+      "Participé en la planeación, el desarrollo y la implementación de proyectos de software orientados a procesos administrativos y servicios digitales. Di soporte a plataformas tecnológicas y contribuí a mantener soluciones confiables para distintos equipos.",
   },
 ];
 ---
@@ -25,10 +25,10 @@ const EXPERIENCE = [
   <div class="flex flex-col pt-8 max-w-4xl mx-auto">
     <div class="flex gap-4 items-center justify-center">
       <Icon class="text-3xl dark:text-white text-blacktext" name="briefcase" />
-      <Heading text="Work" textGradient="Experience" level={2} />
+      <Heading text="Experiencia" textGradient="profesional" level={2} />
     </div>
 
-    <div class="relative max-md:mt-0 mt-8" aria-label="Professional experience">
+    <div class="relative max-md:mt-0 mt-8" aria-label="Experiencia profesional">
       <ol class="relative mt-10">
         {
           EXPERIENCE.map((experience, index) => (

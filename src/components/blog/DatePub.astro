@@ -18,7 +18,7 @@ const {date, class: className} = Astro.props;
             clip-rule="evenodd"></path></svg
     >
     {
-        new Date(date).toLocaleDateString("en-US", {
+        new Date(date).toLocaleDateString("es-MX", {
             timeZone: "UTC", // Avoid timezone adjustments
             day: "numeric",
             month: "long",

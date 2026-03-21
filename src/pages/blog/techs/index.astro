@@ -3,7 +3,7 @@ import Layout from "../../../layouts/Layout.astro";
 import Languages from "../../../components/blog/Languages.astro";
 import Heading from "../../../components/ui/Heading.astro";
 
-const pageTitle = "Technologies"; // Fixed: Title was "Languages" but heading shows "Technologies"
+const pageTitle = "Tecnologías";
 const allPosts = await Astro.glob("../posts/*.md");
 const languages = [
     ...new Set(allPosts.map((post) => post.frontmatter.languages).flat()),
@@ -13,7 +13,7 @@ const languages = [
 <Layout pageTitle={pageTitle}>
     <section class="py-8">
         <div class="flex flex-col gap-8 max-w-3xl mx-auto">
-            <Heading text="Technologies" />
+            <Heading text="Tecnologías" />
             <Languages variant="vertical" languages={languages} /> <!-- Fixed: Missing languages prop -->
         </div>
     </section>
