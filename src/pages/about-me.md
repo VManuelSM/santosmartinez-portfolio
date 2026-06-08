@@ -1,41 +1,36 @@
 ---
 layout: /src/layouts/MarkdownAbout.astro
 title: "Víctor Santos | Sobre mí"
-description: "Desarrollador de software enfocado en crear experiencias digitales claras, funcionales y bien pensadas."
+description: "Subdirector Adjunto en COEMERE, investigador en Inteligencia Artificial y desarrollador de software enfocado en Gobierno Digital."
 author: "Víctor Manuel Santos Martínez"
 image:
   url: "/images/victor-santos-profile.jpeg"
   alt: "Fotografía de Víctor Manuel Santos Martínez"
 ---
 
-Soy **Víctor Manuel Santos Martínez**, desarrollador de software con enfoque en productos digitales bien resueltos. Disfruto trabajar en proyectos donde la tecnología tiene una intención clara: mejorar procesos, comunicar mejor una idea o convertir una necesidad real en una solución útil.
+Soy **Víctor Manuel Santos Martínez**. Me considero un puente entre la tecnología pura y las personas. Mi camino profesional me ha llevado de construir sistemas a medida como consultor, a involucrarme de lleno en transformar la manera en que el gobierno interactúa con los ciudadanos en Hidalgo.
 
-Me interesa construir experiencias que se sientan sólidas desde la primera interacción. Eso implica cuidar la estructura, el rendimiento, la accesibilidad y también el detalle visual. Para mí, una buena interfaz no solo se ve bien: también guía, reduce fricción y ayuda a que todo funcione con claridad.
+Estoy convencido de que hacer carrera en el servicio público requiere más que saber escribir código; requiere estrategia, visión, y una enorme capacidad para traducir la tecnología en beneficios tangibles para la gente. Actualmente me desempeño como **Subdirector Adjunto en la COEMERE**, donde aplico esto todos los días.
 
-## Mi enfoque de trabajo
+## El Camino Técnico (2021 - 2025)
 
-Me gusta partir del problema antes que de la herramienta. Analizo contexto, objetivos y restricciones, y desde ahí tomo decisiones técnicas que ayuden a mantener el proyecto ordenado, escalable y fácil de evolucionar.
+Previo a ser servidor público, fundé y me desempeñé como **Lead Developer en Code Vector**. Durante estos años, dirigí la arquitectura y el desarrollo full-stack de soluciones de software a medida para el sector privado. 
 
-En el proceso valoro especialmente:
+Esta experiencia me otorgó bases sólidas en ingeniería de software y despliegue de sistemas. Aprendí a entender modelos de negocio complejos y a traducirlos en herramientas de software con un impacto directo en la eficiencia operativa. Obtuve el rigor técnico que hoy aplico a los sistemas gubernamentales.
 
-- La claridad en la comunicación
-- El código mantenible
-- La consistencia visual
-- La atención al detalle
-- La colaboración práctica entre diseño, producto y desarrollo
+<!-- ## La Evolución y la IA
 
-## Tecnología con propósito
+Con el tiempo, me di cuenta de que el desarrollo de software tradicional resolvía el "cómo", pero los retos sistémicos y de escala requerían herramientas más profundas de análisis y razonamiento.
 
-Trabajo cómodo en entornos web modernos y me interesa combinar desarrollo, estructura de contenido y experiencia de usuario para construir soluciones completas. Disfruto tanto la parte visual del frontend como la lógica necesaria para que un producto sea estable, rápido y confiable.
+Esta revelación me llevó a cursar la **Maestría en Inteligencia Artificial** en la **UPMH**. Hoy, mi investigación se centra en la aplicación de arquitecturas agénticas y modelos RAG híbridos para facilitar la interacción de los ciudadanos con los trámites gubernamentales. A través de proyectos como el **Copiloto Institucional de IA**, busco que la innovación académica se convierta en política pública accionable y medible. -->
 
-También me gusta experimentar, prototipar ideas y encontrar formas más simples de resolver problemas complejos. Esa mezcla entre criterio técnico y curiosidad es parte central de cómo trabajo.
+## Visión 2028: Docencia y Liderazgo
 
-## Más allá del código
+Mi visión a largo plazo va más allá de construir sistemas: quiero formar a quienes los van a construir. Para 2028, mi objetivo es desempeñarme como **Profesor Universitario** e investigador. 
 
-Fuera del entorno de desarrollo, me interesan los espacios que ayudan a pensar con calma y a recargar ideas. El café, la música, el cine y los juegos de mesa forman parte natural de mi día a día y también influyen en cómo observo, diseño y construyo.
+Entiendo que el conocimiento técnico aislado no es suficiente; las ideas transformadoras requieren voces claras. Por ello, participo activamente en **Toastmasters**, perfeccionando mis habilidades de oratoria, comunicación y liderazgo. Busco compartir mis aprendizajes, tanto en foros como en las aulas, combinando la teoría académica con la realidad operativa del Estado.
 
-Creo en los proyectos hechos con intención, en los procesos bien pensados y en el valor de seguir aprendiendo constantemente.
+---
 
-## Sigamos en contacto
-
-Si estás trabajando en una idea, un producto o una mejora digital y necesitas apoyo para aterrizarla con criterio técnico y buena ejecución, este espacio está hecho para eso.
+*Creo en la tecnología con propósito, en la comunicación asertiva, en el trabajo en equipo y en el poder de una buena taza de café para detonar grandes ideas.* 
+Si te interesa conversar sobre inteligencia artificial, gobierno digital o investigación, soy todo oídos.

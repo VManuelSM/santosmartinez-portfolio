@@ -72,14 +72,11 @@ const {
         >
           {profileName} 👋
         </h1>
-        <p
-          class="mb-0 text-lg font-semibold leading-8 text-blacktext dark:text-gray-200 max-xl:text-base"
-        >
-          Con <span
-            class="bg-linear-to-r from-riptide-500 to-mint-500 bg-clip-text font-black text-transparent dark:from-riptide-300 dark:to-mint-200"
-            >6 años de experiencia en desarrollo de software</span
-          >, convierto necesidades reales en soluciones digitales claras,
-          funcionales y bien pensadas. Me gusta el café. 🚀☕
+        <p>
+          <span class="bg-linear-to-r from-riptide-500 to-mint-500 bg-clip-text font-black text-transparent dark:from-riptide-300 dark:to-mint-200">
+            Colaborador en Inteligencia Artificial y Gobierno Digital.
+          </span><br/>
+          Transformando la administración pública a través de la tecnología. Subdirector Adjunto en COEMERE, futuro investigador y desarrollador.
         </p>
 
         <div class="flex gap-4 max-sm:flex-col max-sm:items-center">
@@ -102,7 +99,7 @@ const {
     class="mx-auto grid max-w-7xl grid-cols-2 grid-rows-4 max-sm:gap-3 gap-4 max-md:h-[80vh] max-sm:h-[900px] max-xl:h-[550px] xl:h-[700px] md:grid-cols-4 md:grid-rows-2"
   >
     <div
-      class="col-start-2 row-start-2 flex flex-col gap-3 rounded-2xl border border-emerald-50 bg-linear-to-r from-riptide-200 to-mint-200 p-8 dark:border-zinc-800 dark:border-2 dark:bg-zinc-800 dark:bg-gradient-radial dark:from-riptide-500 dark:to-mint-500 max-md:gap-0 max-xl:p-5 max-md:p-4 max-lg:gap-1 md:col-start-4"
+      class="col-span-2 col-start-1 row-start-2 flex flex-col gap-3 rounded-2xl border border-emerald-50 bg-linear-to-r from-riptide-200 to-mint-200 p-8 dark:border-zinc-800 dark:border-2 dark:bg-zinc-800 dark:bg-gradient-radial dark:from-riptide-500 dark:to-mint-500 max-md:gap-0 max-xl:p-5 max-md:p-4 max-lg:gap-1 md:col-start-3 md:col-span-2 md:row-start-2"
     >
       <div class="flex flex-col-reverse items-start gap-4 max-md:gap-2">
         <Heading text="Más allá" textGradient="del código" level={2} />
@@ -114,37 +111,7 @@ const {
     </div>
 
     <div
-      class="col-start-1 row-start-2 rounded-2xl bg-linear-to-r from-mint-300 dark:from-mint-600 to-mint-50 dark:to-mint-200/5 hover:to-mint-300/30 dark:hover:to-mint-600/30 p-[.2rem] transition-all ease-in duration-150 hover:scale-105 hover:shadow-[0_20px_50px_rgba(26,72,142,0.35)] z-40 md:col-start-3"
-    >
-      <div class="h-full w-full overflow-hidden rounded-2xl dark:bg-zinc-900">
-        <div
-          class="relative h-full w-full overflow-hidden rounded-2xl bg-linear-to-tr from-riptide-100 to-white dark:from-transparent dark:bg-linear-to-bl dark:to-transparent"
-        >
-          <a
-            target="_blank"
-            href={github}
-            aria-label="Ver el repositorio de este sitio en GitHub"
-          >
-            <div
-              class="relative flex h-full flex-col gap-8 p-8 dark:before:bg-[radial-gradient(circle,rgba(26,72,142)_0,rgba(9,33,71)_100%)] before:bg-[radial-gradient(circle,rgba(151,178,222)_0,rgba(232,238,248)_100%)] before:absolute before:left-30 before:bottom-30 before:h-[30%] before:aspect-square before:rounded-full before:blur-3xl before:opacity-90 before:transition before:z-0 max-xl:p-5 max-md:p-4 xl:before:bottom-10"
-            >
-              <div class="z-2">
-                <Heading text={githubText} level={3} />
-              </div>
-
-              <Icon
-                class="absolute -bottom-10 left-30 size-50 text-mint-500/30 group-hover:animate-pulse ease-in-out max-sm:left-10 max-md:left-30 xl:size-56 xl:-bottom-5 xl:-right-24"
-                name="github"
-                aria-hidden="true"
-              />
-            </div>
-          </a>
-        </div>
-      </div>
-    </div>
-
-    <div
-      class="col-span-2 col-start-1 row-start-1 rounded-2xl bg-linear-to-r from-mint-300 dark:from-mint-600 to-mint-50 dark:to-mint-200/5 hover:to-mint-300/30 dark:hover:to-mint-600/30 p-[.2rem] md:col-start-3"
+      class="col-span-2 col-start-1 row-start-1 rounded-2xl bg-linear-to-r from-mint-300 dark:from-mint-600 to-mint-50 dark:to-mint-200/5 hover:to-mint-300/30 dark:hover:to-mint-600/30 p-[.2rem] md:col-start-3 md:col-span-2 md:row-start-1"
     >
       <article
         class="group relative z-0 flex h-full w-full flex-col overflow-hidden rounded-2xl bg-linear-to-tr from-riptide-100 to-mint-100 p-6 transition hover:shadow-[0_10px_50px_rgba(26,72,142,0.2)] dark:bg-linear-to-r dark:from-mint-900 dark:to-mint-950 dark:overflow-hidden max-md:p-4 gap-6 max-md:gap-3 max-lg:gap-4 dark:before:bg-[radial-gradient(circle,rgba(26,72,142)_0,rgba(9,33,71)_100%)] before:bg-[radial-gradient(circle,rgba(151,178,222)_0,rgba(232,238,248)_100%)] before:absolute before:left-30 before:-bottom-0 before:h-[80%] before:aspect-square before:rounded-full before:blur-3xl dark:before:opacity-80 before:opacity-30 before:-z-10 before:transition"
@@ -184,27 +151,15 @@ const {
         <p
           class="z-2 my-6 text-lg font-semibold leading-6 dark:text-gray-200 text-blacktext max-xl:text-base max-w-[90%] max-md:max-w-[85%]"
         >
-          Me gusta <span
-            class="bg-linear-to-r from-riptide-500 to-mint-500 bg-clip-text font-black text-transparent dark:from-riptide-300 dark:to-mint-200"
-            >convertir ideas en proyectos reales.</span
-          >
-          <br /> Aquí comparto algunos de los <span
-            class="bg-linear-to-r from-riptide-500 to-mint-500 bg-clip-text font-black text-transparent dark:from-riptide-300 dark:to-mint-200"
-            >desarrollos</span
-          > en los que he trabajado, combinando tecnología, diseño y creatividad.
-          <span
+          Investigación académica y desarrollo de software. <br /><br />
+          Documentando avances en <span
             class="bg-linear-to-r from-riptide-500 to-mint-500 font-black bg-clip-text text-transparent dark:from-riptide-300 dark:to-mint-200"
-            >Explóralos.</span
+            >Inteligencia Artificial</span
+          > y soluciones para el <span
+            class="bg-linear-to-r from-riptide-500 to-mint-500 font-black bg-clip-text text-transparent dark:from-riptide-300 dark:to-mint-200"
+            >Gobierno Digital.</span
           >
         </p>
-        <img
-          class="relative left-0 z-0 mt-40 w-full object-cover transition-all ease-in-out duration-500 group-hover:rotate-2 group-hover:scale-185 max-xl:mt-28 max-lg:mt-10 max-sm:mt-0 max-md:scale-100 max-sm:scale-125 scale-180 max-md:group-hover:scale-105 before:bg-[radial-gradient(circle,rgba(26,72,142)_0,rgba(9,33,71)_100%)] before:absolute before:left-30 before:-bottom-0 before:h-[80%] before:aspect-square before:rounded-full before:blur-3xl before:opacity-80 before:-z-10 before:transition"
-          src={portfolioImage}
-          alt="Vista previa de dos interfaces web con diseño moderno, enfoque editorial y componentes visuales destacados."
-          loading="lazy"
-          width="480"
-          height="320"
-        />
       </article>
     </div>
   </div>

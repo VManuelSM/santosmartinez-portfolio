@@ -110,6 +110,30 @@ export const languages: Record<string, Language> = {
     name: "Python",
     iconName: "python",
   },
+  ia: {
+    name: "Inteligencia Artificial",
+    iconName: "code",
+  },
+  gobierno: {
+    name: "Gobierno Digital",
+    iconName: "code",
+  },
+  arquitectura: {
+    name: "Arquitectura",
+    iconName: "code",
+  },
+  database: {
+    name: "Bases de Datos",
+    iconName: "mongo",
+  },
+  react: {
+    name: "React",
+    iconName: "code",
+  },
+  nodejs: {
+    name: "Node.js",
+    iconName: "node",
+  },
 };
 
 export const getLanguage = (lang: string): Language => {

@@ -7,10 +7,10 @@
   "github": "https://github.com/VManuelSM",
   "githubText": "¿Quieres ver el código de este sitio?",
   "portfolioImage": "/images/portfolio.webp",
-  "email": "v.santosmartinez@icloud.com",
-  "linkedin": "https://www.linkedin.com/in/efeele/",
-  "instagram": "https://www.instagram.com/efeele.dev/",
-  "youtube": "https://www.youtube.com/@efeeledev",
+  "email": "victor.manuel@santosmartinez.com.mx",
+  "linkedin": "https://www.linkedin.com/in/victorsantosm/",
+  "instagram": "https://www.instagram.com/victorsantosm/",
+  "youtube": "https://www.youtube.com/@victorsantosm",
   "alias": "Víctor Santos",
   "contactSectionTitle": "¿Listo para llevar tu idea al siguiente nivel?",
   "contactSectionSubtitle": "Trabajemos juntos.",
@@ -23,17 +23,17 @@
   "linkedinIconName": "linkedin",
   "emailIconName": "envelope",
   "hobbies": [
-    "Escritura",
-    "Camping",
+    "Docencia",
+    "Inteligencia Artificial",
     "Café",
-    "Música",
-    "Cine",
-    "Juegos de mesa"
+    "Toastmasters",
+    "Oratoria",
+    "Gobierno Digital"
   ],
-  "pageTitle": "Portafolio de Víctor Santos",
-  "pageDescription": "Portafolio personal de Víctor Santos con experiencia, proyectos y soluciones digitales.",
+  "pageTitle": "Víctor Santos | Colaborador en IA y Gobierno Digital",
+  "pageDescription": "Víctor Santos: Colaborador en Inteligencia Artificial y Gobierno Digital. Subdirector Adjunto en COEMERE, profesor e investigador en arquitectura de software y trámites gubernamentales.",
   "OGImage": {
     "url": "/images/imagedefault.webp",
-    "alt": "Vista previa del portafolio personal de Víctor Santos con secciones de experiencia, proyectos y stack tecnológico."
+    "alt": "Vista previa del sitio personal de Víctor Santos con secciones de experiencia, investigación en IA y proyectos."
   }
 }
