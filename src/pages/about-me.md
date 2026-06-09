@@ -8,7 +8,7 @@ image:
   alt: "Fotografía de Víctor Manuel Santos Martínez"
 ---
 
-Soy **Víctor Manuel Santos Martínez**. Me considero un puente entre la tecnología pura y las personas. Mi camino profesional me ha llevado de construir sistemas a medida como consultor, a involucrarme de lleno en transformar la manera en que el gobierno interactúa con los ciudadanos en Hidalgo.
+Soy **Víctor Manuel Santos Martínez**. Me considero un embajador entre la tecnología y las personas. Mi camino profesional me ha llevado de construir sistemas a medida como consultor, a involucrarme en transformar la manera en que el gobierno interactúa con los ciudadanos en Hidalgo.
 
 Estoy convencido de que hacer carrera en el servicio público requiere más que saber escribir código; requiere estrategia, visión, y una enorme capacidad para traducir la tecnología en beneficios tangibles para la gente. Actualmente me desempeño como **Subdirector Adjunto en la COEMERE**, donde aplico esto todos los días.
 
@@ -28,9 +28,9 @@ Esta revelación me llevó a cursar la **Maestría en Inteligencia Artificial** 
 
 Mi visión a largo plazo va más allá de construir sistemas: quiero formar a quienes los van a construir. Para 2028, mi objetivo es desempeñarme como **Profesor Universitario** e investigador. 
 
-Entiendo que el conocimiento técnico aislado no es suficiente; las ideas transformadoras requieren voces claras. Por ello, participo activamente en **Toastmasters**, perfeccionando mis habilidades de oratoria, comunicación y liderazgo. Busco compartir mis aprendizajes, tanto en foros como en las aulas, combinando la teoría académica con la realidad operativa del Estado.
+Entiendo que el conocimiento técnico aislado no es suficiente; las ideas transformadoras requieren voces claras. Por ello, participo activamente en [**Toastmasters International**](https://www.toastmasters.org/), practicamdno mis habilidades de oratoria, comunicación y liderazgo. Busco compartir mis aprendizajes, tanto en foros como en las aulas, combinando la teoría académica con la realidad operativa del Estado.
 
 ---
 
-*Creo en la tecnología con propósito, en la comunicación asertiva, en el trabajo en equipo y en el poder de una buena taza de café para detonar grandes ideas.* 
+*Creo en la tecnología con propósito, en la comunicación asertiva, en el trabajo en equipo y en el poder de una buena taza de café para impulsar grandes ideas.* 
 Si te interesa conversar sobre inteligencia artificial, gobierno digital o investigación, soy todo oídos.

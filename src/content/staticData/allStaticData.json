@@ -7,13 +7,13 @@
   "github": "https://github.com/VManuelSM",
   "githubText": "¿Quieres ver el código de este sitio?",
   "portfolioImage": "/images/portfolio.webp",
-  "email": "victor.manuel@santosmartinez.com.mx",
-  "linkedin": "https://www.linkedin.com/in/victorsantosm/",
-  "instagram": "https://www.instagram.com/victorsantosm/",
-  "youtube": "https://www.youtube.com/@victorsantosm",
-  "alias": "Víctor Santos",
-  "contactSectionTitle": "¿Listo para llevar tu idea al siguiente nivel?",
-  "contactSectionSubtitle": "Trabajemos juntos.",
+  "email": "victormanuel@santosmartinez.com.mx",
+  "linkedin": "https://www.linkedin.com/in/vm-sm/",
+  "instagram": "",
+  "youtube": "",
+  "alias": "Víctor Manuel Santos",
+  "contactSectionTitle": "¿Te gustaría conversar sobre algo interesante?",
+  "contactSectionSubtitle": "Estoy a la orden.",
   "contactSectionButtonText": "Contáctame",
   "contactSectionButtonIcon": "paperplane",
   "techsTitle": "TECNOLOGÍAS",
@@ -31,9 +31,9 @@
     "Gobierno Digital"
   ],
   "pageTitle": "Víctor Santos | Colaborador en IA y Gobierno Digital",
-  "pageDescription": "Víctor Santos: Colaborador en Inteligencia Artificial y Gobierno Digital. Subdirector Adjunto en COEMERE, profesor e investigador en arquitectura de software y trámites gubernamentales.",
+  "pageDescription": "Víctor Santos: Colaborador en Inteligencia Artificial y Gobierno Digital. Subdirector Adjunto en COEMERE, desarrollador en arquitectura de software y trámites gubernamentales.",
   "OGImage": {
     "url": "/images/imagedefault.webp",
-    "alt": "Vista previa del sitio personal de Víctor Santos con secciones de experiencia, investigación en IA y proyectos."
+    "alt": "Santos Martínez — Portafolio: IA y Gobierno Digital, transformación de la administración pública a través de la tecnología."
   }
 }

@@ -7,9 +7,9 @@ const [staticData] = await getCollection("staticData");
 const {
   github,
   alias,
-  instagram,
+//  instagram,
   email,
-  youtube,
+//  youtube,
   linkedin,
   emailIconName,
   youtubeIconName,
@@ -56,7 +56,7 @@ const {
         iconName={emailIconName}
         label={`Enviar correo a ${email}`}
       />
-      <Social
+      <!-- <Social
         link={instagram}
         iconName={instagramIconName}
         label={`Visitar el Instagram de ${alias}`}
@@ -65,7 +65,7 @@ const {
         link={youtube}
         iconName={youtubeIconName}
         label={`Visitar el canal de YouTube de ${alias}`}
-      />
+      /> -->
       <Social
         link={github}
         iconName={githubIconName}
