@@ -11,7 +11,8 @@ export interface Props {
 
 const { excludeLatest = false, currentPostUrl = "", all = false } = Astro.props;
 
-const allPosts = await Astro.glob("../../pages/blog/posts/*.md");
+import { getBlogPosts } from "../../utils/getBlogPosts";
+const allPosts = await getBlogPosts();
 // Sort by date in descending order (newest first)
 allPosts.sort((a, b) => {
   const dateA = new Date(a.frontmatter.pubDate).getTime();
@@ -68,7 +69,14 @@ if (!all) {
     }
   </div>
   {
-    !all && (
+    postsToShow.length === 0 && (
+      <p class="text-center text-blacktext/70 dark:text-gray-300 py-12">
+        Aún no hay publicaciones. Vuelve pronto.
+      </p>
+    )
+  }
+  {
+    !all && postsToShow.length > 0 && (
       <div id="morePosts" class="w-full flex justify-center text-center my-12">
         <a
           href="/blog/posts/"

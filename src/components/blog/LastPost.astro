@@ -1,24 +1,41 @@
 ---
-const allPosts = await Astro.glob("../../pages/blog/posts/*.md");
+import { getBlogPosts } from "../../utils/getBlogPosts";
+const allPosts = await getBlogPosts();
 
 import Tag from "../ui/Tag.astro";
 import ReadMore from "../ui/ReadMore.astro";
 import Capsule from "../ui/Capsule.astro";
 import DatePub from "./DatePub.astro";
 
-// Get the latest post using reduce
-const latestPost = allPosts.reduce((latest, current) => {
-  const latestDate = new Date(latest.frontmatter.pubDate).getTime();
-  const currentDate = new Date(current.frontmatter.pubDate).getTime();
-  return currentDate > latestDate ? current : latest;
-});
+// Get the latest post using reduce (only if there are posts)
+const latestPost = allPosts.length
+  ? allPosts.reduce((latest, current) => {
+      const latestDate = new Date(latest.frontmatter.pubDate).getTime();
+      const currentDate = new Date(current.frontmatter.pubDate).getTime();
+      return currentDate > latestDate ? current : latest;
+    })
+  : null;
 
-const tags = [...new Set(latestPost.frontmatter.tags ?? [])];
-const languages = [...new Set(latestPost.frontmatter.languages ?? [])];
-const image = latestPost.frontmatter.image.url;
+const tags = [...new Set(latestPost?.frontmatter.tags ?? [])];
+const languages = [...new Set(latestPost?.frontmatter.languages ?? [])];
+const image = latestPost?.frontmatter.image?.url;
 const imageAlt =
-  latestPost.frontmatter.image.alt || latestPost.frontmatter.title;
+  latestPost?.frontmatter.image?.alt || latestPost?.frontmatter.title;
 ---
+
+{
+  !latestPost && (
+    <div class="h-full flex flex-col items-center justify-center gap-3 rounded-2xl bg-linear-to-br from-riptide-100 to-white dark:from-mint-950 dark:to-zinc-950 p-8 text-center">
+      <h2 class="text-2xl font-bold font-chakra-petch text-blacktext dark:text-white">
+        Próximamente
+      </h2>
+      <p class="text-blacktext/70 dark:text-gray-300 max-w-sm">
+        Aún no hay publicaciones. Pronto compartiré notas sobre IA, gobierno
+        digital y desarrollo.
+      </p>
+    </div>
+  )
+}
 
 {
   latestPost && (

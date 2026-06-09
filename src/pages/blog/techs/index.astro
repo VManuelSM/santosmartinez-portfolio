@@ -4,7 +4,8 @@ import Languages from "../../../components/blog/Languages.astro";
 import Heading from "../../../components/ui/Heading.astro";
 
 const pageTitle = "Tecnologías";
-const allPosts = await Astro.glob("../posts/*.md");
+import { getBlogPosts } from "../../../utils/getBlogPosts";
+const allPosts = await getBlogPosts();
 const languages = [
     ...new Set(allPosts.map((post) => post.frontmatter.languages).flat()),
 ];

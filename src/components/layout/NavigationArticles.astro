@@ -1,5 +1,6 @@
 ---
-const allPosts = await Astro.glob("../../pages/blog/posts/*.md");
+import { getBlogPosts } from "../../utils/getBlogPosts";
+const allPosts = await getBlogPosts();
 
 
 // Ensure posts have a date before sorting them

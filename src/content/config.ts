@@ -1,5 +1,6 @@
 // src/content/config.ts
 import { defineCollection, z } from 'astro:content';
+import { glob } from 'astro/loaders';
 
 const jsonDataCollection = defineCollection({
   type: 'data',
@@ -38,6 +39,25 @@ const jsonDataCollection = defineCollection({
   }),
 });
 
+const blogCollection = defineCollection({
+  loader: glob({ pattern: '**/*.md', base: './src/content/blog' }),
+  schema: z.object({
+    title: z.string(),
+    author: z.string().default('Santos Martínez'),
+    description: z.string().optional(),
+    image: z
+      .object({
+        url: z.string(),
+        alt: z.string().optional(),
+      })
+      .optional(),
+    pubDate: z.coerce.date(),
+    tags: z.array(z.string()).default([]),
+    languages: z.array(z.string()).default([]),
+  }),
+});
+
 export const collections = {
   staticData: jsonDataCollection,
+  blog: blogCollection,
 };

@@ -1,11 +1,20 @@
-import rss, { pagesGlobToRssItems } from '@astrojs/rss';
+import rss from '@astrojs/rss';
+import { getCollection } from 'astro:content';
 
 export async function GET(context) {
+  const posts = await getCollection('blog');
   return rss({
-    title: 'Blog de desarrollo y tecnología | Víctor Santos',
-    description: 'Artículos y notas sobre desarrollo web, diseño, herramientas y tecnología.',
+    title: 'Blog | Santos Martínez',
+    description: 'Notas sobre inteligencia artificial, gobierno digital y desarrollo.',
     site: context.site,
-    items: await pagesGlobToRssItems(import.meta.glob('./**/*.md')),
+    items: posts
+      .sort((a, b) => b.data.pubDate.getTime() - a.data.pubDate.getTime())
+      .map((post) => ({
+        title: post.data.title,
+        description: post.data.description ?? '',
+        pubDate: post.data.pubDate,
+        link: `/blog/posts/${post.id}/`,
+      })),
     customData: `<language>es</language>`,
   });
 }
