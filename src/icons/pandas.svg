@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <!-- pandas: cara de panda sobre fondo violeta de marca (#150458) -->
+  <circle cx="32" cy="32" r="30" fill="#150458"/>
+  <!-- orejas -->
+  <circle cx="16" cy="14" r="8" fill="#e0e0e0"/>
+  <circle cx="48" cy="14" r="8" fill="#e0e0e0"/>
+  <!-- cara -->
+  <ellipse cx="32" cy="37" rx="20" ry="18" fill="#f0f0f0"/>
+  <!-- manchas de ojos -->
+  <ellipse cx="23" cy="30" rx="7" ry="7.5" fill="#1a1a2e"/>
+  <ellipse cx="41" cy="30" rx="7" ry="7.5" fill="#1a1a2e"/>
+  <!-- ojos -->
+  <circle cx="23" cy="30" r="3" fill="white"/>
+  <circle cx="41" cy="30" r="3" fill="white"/>
+  <!-- pupilas -->
+  <circle cx="24" cy="31" r="1.5" fill="#1a1a2e"/>
+  <circle cx="42" cy="31" r="1.5" fill="#1a1a2e"/>
+  <!-- nariz -->
+  <ellipse cx="32" cy="41" rx="4" ry="2.5" fill="#1a1a2e"/>
+</svg>

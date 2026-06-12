@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <!-- Jupyter logo: 3 orbs arranged in triangle -->
+  <circle cx="32" cy="8" r="9" fill="#F37726"/>
+  <circle cx="55" cy="48" r="7.5" fill="#767676"/>
+  <circle cx="9" cy="48" r="7.5" fill="#9E9E9E"/>
+</svg>

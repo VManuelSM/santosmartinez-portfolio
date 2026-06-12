@@ -110,6 +110,30 @@ export const languages: Record<string, Language> = {
     name: "Python",
     iconName: "python",
   },
+  jupyter: {
+    name: "Jupyter",
+    iconName: "jupyter",
+  },
+  pandas: {
+    name: "pandas",
+    iconName: "pandas",
+  },
+  numpy: {
+    name: "NumPy",
+    iconName: "numpy",
+  },
+  sklearn: {
+    name: "scikit-learn",
+    iconName: "sklearn",
+  },
+  spacy: {
+    name: "spaCy",
+    iconName: "spacy",
+  },
+  mongodb: {
+    name: "MongoDB",
+    iconName: "mongo",
+  },
   ia: {
     name: "Inteligencia Artificial",
     iconName: "code",

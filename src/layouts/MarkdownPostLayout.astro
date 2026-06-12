@@ -48,6 +48,14 @@ const { profileImage, profileAlt } = staticData.data;
     });
   }
 
+  // Wrap tables for full-width + horizontal scroll on mobile
+  for (const table of document.querySelectorAll<HTMLTableElement>(".markdown table")) {
+    const wrapper = document.createElement("div");
+    wrapper.className = "markdown-table-wrapper";
+    table.parentNode!.insertBefore(wrapper, table);
+    wrapper.appendChild(table);
+  }
+
   async function copyCode(block: HTMLElement, button: HTMLButtonElement) {
     let code = block.querySelector("code");
     if (!code) return;

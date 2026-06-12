@@ -156,6 +156,35 @@ a.inline-block.leading-5.pl-12{
 .markdown strong{
 	@apply font-bold;
 }
+
+.markdown-table-wrapper {
+	@apply w-full overflow-x-auto my-8 rounded-xl;
+}
+
+.markdown table {
+	@apply text-sm border-collapse w-full;
+}
+
+.markdown thead tr {
+	@apply bg-mint-100 dark:bg-mint-900/40 text-blacktext dark:text-mint-100;
+}
+
+.markdown th {
+	@apply px-4 py-3 text-left font-semibold font-chakra-petch text-sm tracking-wide border-b border-mint-200 dark:border-mint-700;
+}
+
+.markdown td {
+	@apply px-4 py-3 text-base max-md:text-sm text-blacktext dark:text-gray-200 border-b border-neutral-100 dark:border-zinc-700/50 align-top;
+}
+
+.markdown tbody tr:last-child td {
+	@apply border-b-0;
+}
+
+.markdown tbody tr:hover {
+	@apply bg-mint-50/60 dark:bg-mint-900/20 transition-colors duration-150;
+}
+
 .code-block-efe {
 	@apply  w-full rounded-lg h-auto overflow-hidden my-8 ;
 }

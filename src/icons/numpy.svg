@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <!-- numpy: cubo 3D isométrico sobre fondo azul oscuro de marca (#013243) -->
+  <circle cx="32" cy="32" r="30" fill="#013243"/>
+  <!-- cara superior -->
+  <polygon points="32,10 52,21 32,32 12,21" fill="#4DABCF"/>
+  <!-- cara izquierda -->
+  <polygon points="12,21 32,32 32,54 12,43" fill="#4D77CF"/>
+  <!-- cara derecha -->
+  <polygon points="52,21 32,32 32,54 52,43" fill="#2A7BBF"/>
+</svg>
