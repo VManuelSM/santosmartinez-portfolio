@@ -9,7 +9,14 @@
       "Bash(git fetch:*)",
       "Bash(git pull:*)",
       "Bash(git stash:*)",
-      "Bash(curl:*)"
+      "Bash(curl:*)",
+      "Bash(mkdir -p /home/uplah/Proyectos/santosmartinez-portfolio/public/images/posts/cad-ecommerce-corte2)",
+      "Bash(cp '/home/uplah/Obsidian/Maestría en IA/Tercer Cuatrimestre/Cómputo de Alto Desempeño/Actividades/img_pln_corte2/fig_class_distribution.png' /home/uplah/Proyectos/santosmartinez-portfolio/public/images/posts/cad-ecommerce-corte2/distribucion-clases.png)",
+      "Bash(cp '/home/uplah/Obsidian/Maestría en IA/Tercer Cuatrimestre/Cómputo de Alto Desempeño/Actividades/img_pln_corte2/fig_accuracy_comparison.png' /home/uplah/Proyectos/santosmartinez-portfolio/public/images/posts/cad-ecommerce-corte2/comparacion-accuracy.png)",
+      "Bash(cp '/home/uplah/Obsidian/Maestría en IA/Tercer Cuatrimestre/Cómputo de Alto Desempeño/Actividades/img_pln_corte2/fig_time_comparison.png' /home/uplah/Proyectos/santosmartinez-portfolio/public/images/posts/cad-ecommerce-corte2/comparacion-tiempos.png)",
+      "Bash(timeout 180 npx astro sync)",
+      "Read(//home/uplah/Descargas/**)",
+      "Bash(node -e \"require.resolve\\('sharp'\\); console.log\\('sharp-available'\\)\")"
     ]
   }
 }

@@ -28,7 +28,7 @@ Esta revelación me llevó a cursar la **Maestría en Inteligencia Artificial** 
 
 Mi visión a largo plazo va más allá de construir sistemas: quiero formar a quienes los van a construir. Para 2028, mi objetivo es desempeñarme como **Profesor Universitario** e investigador. 
 
-Entiendo que el conocimiento técnico aislado no es suficiente; las ideas transformadoras requieren voces claras. Por ello, participo activamente en [**Toastmasters International**](https://www.toastmasters.org/), practicamdno mis habilidades de oratoria, comunicación y liderazgo. Busco compartir mis aprendizajes, tanto en foros como en las aulas, combinando la teoría académica con la realidad operativa del Estado.
+Entiendo que el conocimiento técnico aislado no es suficiente; las ideas transformadoras requieren voces claras. Por ello, participo activamente en [**Toastmasters International**](https://www.toastmasters.org/), practicando mis habilidades de oratoria, comunicación y liderazgo. Busco compartir mis aprendizajes, tanto en foros como en las aulas, combinando la teoría académica con la realidad operativa del Estado.
 
 ---
 
