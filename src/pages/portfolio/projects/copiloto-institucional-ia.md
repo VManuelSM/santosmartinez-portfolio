@@ -1,15 +1,15 @@
 ---
 layout: /src/layouts/ProjectLayout.astro
-title: 'Copiloto Institucional de IA (CITNOVA)'
+title: 'Copiloto Institucional de IA (RUTS)'
 pubDate: 2026-05-20
 description: 'Investigación sobre arquitecturas RAG y Agentes para la simplificación de trámites gubernamentales en el RUTS.'
 languages: ["python", "ia", "gobierno"]
 image:
   url: "/images/imagedefault.webp"
-  alt: "Investigación CITNOVA Inteligencia Artificial"
+  alt: "Investigación en Inteligencia Artificial aplicada a trámites gubernamentales"
 ---
 
-**Copiloto Institucional de IA** es un proyecto de investigación postulada al Fondo Hidalgo, Ciencia y Tecnología (CITNOVA) 2026, enfocado en diseñar y evaluar una arquitectura de Inteligencia Artificial para el **Registro Único de Trámites y Servicios del Estado de Hidalgo (RUTS)**.
+**Copiloto Institucional de IA** es un proyecto de investigación aplicada enfocado en diseñar y evaluar una arquitectura de Inteligencia Artificial para el **Registro Único de Trámites y Servicios del Estado de Hidalgo (RUTS)**.
 
 El objetivo central es desarrollar un asistente conversacional capaz de responder de forma comprensible a ciudadanos con distintos perfiles y niveles de alfabetización digital, reduciendo las barreras burocráticas mediante tecnología de frontera.
 
